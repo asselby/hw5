@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp8
 {
-    class Colors
-    {
-        enum ColorType {
+        public  enum Color {
             red,
             green,
             blue,
             black,
             white
         }
-    }
+    
 }

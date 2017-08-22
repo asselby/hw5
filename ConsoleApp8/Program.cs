@@ -11,11 +11,12 @@ namespace ConsoleApp8
     {
         static void Main(string[] args)
         {
-            Colors newColor = new Colors();
-            Car newCar = new Car(180, newColor );
-            newCar.SetName("Angelina");
-            
-
-        }
+          
+            Car newCar = new Car(180, Color.blue, 2010);
+            Car.SetName("Angelina");
+            Car.SetKindOfModel("Niva");
+            newCar.ArrayOfOptions();
+            Console.ReadLine();
+         }
     }
 }

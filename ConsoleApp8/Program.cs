@@ -14,7 +14,7 @@ namespace ConsoleApp8
           
             Car newCar = new Car(180, Color.blue, 2010);
             Car.SetName("Angelina");
-            Car.SetKindOfModel("Niva");
+            Car.KindOfModel="Niva";
             newCar.ArrayOfOptions();
             Console.ReadLine();
          }
